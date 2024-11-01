@@ -1,0 +1,14 @@
+<h1>
+    <ul>
+        {% for product in  products%}
+            <li>
+            {{product.name}}
+            <p>{{product.price}}</p>
+            {% if product.photo %}
+            <img src"{{product.photo.url}}" alt="{{product.name}}">
+            {% endif %}
+            </li>
+        {% endfor %}
+
+    </ul>
+</h1>
