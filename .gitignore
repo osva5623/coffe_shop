@@ -8,6 +8,10 @@
 __pycache__/
 local_settings.py
 db.sqlite3
+*.jpeg
+*.jpg
+*.png
+*svg
 db.sqlite3-journal
 media
 
@@ -157,6 +161,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
 
 # pytype static type analyzer
 .pytype/
